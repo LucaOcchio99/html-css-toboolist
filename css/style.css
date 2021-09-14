@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    background-color: aqua;
+    line-height: 80px;
+    padding: 10px 16px;
+}
+
+header img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+header span{
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+main {
+  height: 600px;
+  width: 80%;
+  background-color: bisque;
+
+  margin: auto;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.bottone_nav{
+    height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin-top: 12px;
+
+    border-radius: 15%;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+.primo_bottone{
+    margin-left: 40px;
+}
+
+hr{
+    background-color: 2px solid  black;
+}
